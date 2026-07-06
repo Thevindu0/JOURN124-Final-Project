@@ -8,7 +8,7 @@ From a data journalism standpoint, official public data must always be verified 
 
 * **The Population versus Permit Density Bias:** As you will soon see in the citations by city graph, certain cities show staggering numbers of citations compared to others. This does not automatically mean those cities have dirtier kitchens. This disparity between citations could come from cities having more restaurants. Cities with lower citations could be cities with more housing than restaurants, giving fewer opportunities for restaurants to have violations.
 * **Inspector Discretion:** A rise in violations during certain periods or within specific municipal sectors can be caused by internal issues. For example, a higher quota could be set for the inspectors, leading to harsher inspections rather than a drop in restaurant hygiene.
-* **Interpretation Risks:** The raw data entries have violations that bunch many different things together (e.g., `"Floors, walls and ceiling dirty"` or `"Adequate handwashing not available"`). These terms could have many meanings and leave out specifics, creating a margin of error for the data classification. 
+* **Interpretation Risks:** The raw data entries have violations that bunch many different things together, for example `"Floors, walls and ceiling dirty"` or `"Adequate handwashing not available"`. Many of these terms just don't make sense or they have many meanings and leave out specifics, which creates a margin of error for the data classification. 
 
 **Original Data Source:** [Alameda County Food Inspection Dataset](https://data.acgov.org/datasets/e95ff2829e9d4ea0b3d8266aac37ff14_0/explore?location=37.677604%2C-122.008949%2C10)
 
@@ -52,10 +52,10 @@ To better create the charts, here are some of the major data cleaning steps take
 The issue that most restaurants across the county had was minor structural defects, dirty preparation surfaces, and dirty equipment. Minor wear-and-tear is almost impossible to stop for commercial kitchens. These infrastructure maintenance issues are much less of a danger than threats like food contamination and toxin mismanagement. This idea could lead to a story of health inspectors fulfilling a quota by using small infractions to make restaurants pay fines, which shows us that there is a much larger problem in the system of these inspections. 
 
 ### Narrative 2: School Cafeteria Infractions causing public outcry
-The raw data shows not only private, commercial restaurants but also public places such as public school cafeterias. Specifically, Glenmoor Elementary in Fremont and Harder Elementary in Hayward were faced with citations in October of 2024 about unsafe infrastructure, poor handwashing accessibility, and improper temperature readings. These citations could cause a big uproar in the community and cause parents to launch complaints at the school for not passing the inspections. 
+The raw data includes not only private restaurants but also public places such as public school cafeterias. Specifically, Glenmoor Elementary in Fremont and Harder Elementary in Hayward were faced with citations in October of 2024 about unsafe infrastructure, poor handwashing accessibility, and improper temperature readings. These citations could cause a big uproar in the community and cause parents to launch complaints at the school for not passing the inspections. 
 
 ### Narrative 3: Major difference in the number of citations in certain months
-From Chart 3, we can see that there is a big gap between some months of inspection periods. June and July log the fewest violations all year, starting around 2,500. In contrast, high months like April nearly double that amount, hitting 5,000. This massive spring spike could be a cause of county inspections having a higher quota, like from the previous narrative, not a sudden influx of dirtier kitchens.
+From Chart 3, we can see that there is a big gap between some months of inspection periods. June and July log the fewest violations all year, starting around 2,500. In contrast, high months like April nearly double that amount, hitting 5,000. This massive spring spike could be a cause of county inspections having a higher quota, as in the previous narrative, not a sudden influx of dirtier kitchens.
 
 ---
 
