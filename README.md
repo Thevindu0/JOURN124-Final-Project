@@ -23,7 +23,7 @@ To better create the charts, here are some of the major data cleaning steps take
 * **Making a Month Column:** To build the *"Amount of Violations by Month"* visualization, a new calculated column titled `Month` was engineered using the formula `=TEXT(I2, "mmmm")` to create aggregatable buckets for monthly trend analysis.
 * **Redoing Violation Labels:** The raw data featured messy phrases like `"Floors, walls andc"` or `"Adequate handw"`. A lookup array was used to replace these incomplete entries with clean, super short descriptions such as `"Structural Defects"` or `"Blocked Hand Sinks"`. 
 
-**Analysis Documentation:** [[Insert Link to Your Public Google Sheet Here](https://docs.google.com/spreadsheets/d/13IPZhFZvWloGSTxz-4ZWt8_fLGqdBVV8vqxSQt6nZHw/edit?gid=1006609462#gid=1006609462)]
+**Analysis Documentation:** [(https://docs.google.com/spreadsheets/d/13IPZhFZvWloGSTxz-4ZWt8_fLGqdBVV8vqxSQt6nZHw/edit?gid=1006609462#gid=1006609462)]
 
 ---
 
